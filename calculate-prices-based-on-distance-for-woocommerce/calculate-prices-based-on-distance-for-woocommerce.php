@@ -1,8 +1,8 @@
 <?php 
 
 /*
-Plugin Name:  Calculate Prices based on Distance For WooCommerce Testing
-Author: Ammar Ahmad
+Plugin Name:  Calculate Prices based on Distance For WooCommerce
+Author: Ammar Ahmad BUTT
 Plugin URI: https://woo-solutions.ca/wordpress-plugins/
 Author URI: https://woo-solutions.ca
 Text Domain: calculate-prices-based-on-distance-for-woocommerce
