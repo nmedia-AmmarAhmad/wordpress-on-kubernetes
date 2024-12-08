@@ -1,0 +1,45 @@
+.ui-datepicker-buttonpane{
+	display: none;
+}
+.cm-calculate-fee{
+	cursor : pointer;
+	background: #3f3f3f;
+    margin-top: 15px;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.cm-main-label-checkout{
+	margin: 15px 0px;
+}
+.cm-store-options{
+	width:100%;
+}
+
+.cm-checkout-inputs{
+	width:100%;
+}
+
+.cm-address-checkout-fee{
+	display: none;
+}
+.cm-calculate-fee{
+	color:white;
+}
+.cm-cost-per-unit{
+	font-size: 17px;
+	color: gray;
+}
+#map{
+	height: 650px;
+	width: auto;
+}
+
+@media only screen and (max-width: 650px) {
+  	#map{
+		height: 450px;
+		width: 450px;
+	}
+}

@@ -1,0 +1,116 @@
+.cm-checkbox{
+	margin:0px 2px 5px !important;
+	width: 15px;
+    height: 15px;
+    padding: 2px !important;
+}
+.cm-restrict-width{
+	width:100px;
+}
+.cm-disable-time , .cm-disable-date{
+	margin-top: 10px;
+}
+.cm-add-icon{
+	margin: 2px 8px;
+	color: green;
+	cursor: pointer;
+}
+.cm-remove-icon{
+	color: red;
+	cursor: pointer;
+}
+.cm-container{
+	margin: 1%; 
+	width: 95% !important
+}
+.cm-checkbox{
+	height: 15px !important;
+    width: 15px !important;
+}
+.wccpd-pro{
+	color: red !important;
+    text-decoration: none;
+}
+
+/* 11.05.2022 */
+
+
+form.cm-save-admin-settings {
+    display: flex;
+}
+form.cm-save-admin-settings .tab-content {
+    width: 88%;
+}
+form.cm-save-admin-settings ul.nav.nav-tabs {
+    width: 15%;
+    height: 100% !important;
+    display: block;
+    border: none;
+    padding: 0px;
+}
+
+form.cm-save-admin-settings ul.nav-tabs>li>a {
+    float: none !important;
+    padding: 35px  18px!important;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+	position: relative;
+}
+form.cm-save-admin-settings ul.nav-tabs>li {
+    display: block;
+    float: none !important;
+    width: 100%;
+    white-space: unset !important;
+}
+form.cm-save-admin-settings ul.nav-tabs>li.ui-tabs-active>a:after {
+    content: '';
+    display: block !important;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 15px;
+    border-left-width: 15px;
+    border-bottom: 15px solid #007fff;
+    position: absolute;
+    right: -23px;
+    top: 40px;
+    transform: rotate(90deg);
+}
+.document_btns {
+    padding: 20px;
+}
+.document_btns a {
+    background-color: #0d6efd;
+    color: #Fff;
+    padding: 7px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+.wk_icon{
+	padding-bottom: 5px;
+    font-size: 30px;
+
+}
+label{
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'dashicons';
+}
+
+.wccpd-main-admin-heading{
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold; 
+}
+
+.cm-api-key{
+    width: 95%;
+}
+
+.wccpd-address-width-adjust{
+    width: 95%;
+        
+}

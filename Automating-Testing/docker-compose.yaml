@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  sonarqube:
+    image: sonarqube:latest
+    container_name: sonarqube
+    ports:
+      - "9000:9000"  # SonarQube Web UI
+      - "9092:9092"  # Optional additional services
+    environment:
+      - SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true  # Disables Elasticsearch bootstrap checks for local testing
+    volumes:
+      - sonarqube_data:/opt/sonarqube/data
+      - sonarqube_logs:/opt/sonarqube/logs
+      - sonarqube_extensions:/opt/sonarqube/extensions
+
+  jenkins:
+    image: jenkins/jenkins:lts
+    container_name: jenkins
+    privileged: true
+    user: root
+    ports:
+      - "8080:8080"  # Jenkins Web UI
+      - "50000:50000"  # Jenkins agent communication
+    volumes:
+      - /home/${myname}/jenkins_compose/jenkins_configuration:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+
+volumes:
+  sonarqube_data:
+  sonarqube_logs:
+  sonarqube_extensions:

@@ -1,0 +1,12 @@
+GitHUB tOKEN
+nmedia-AmmarAhmad
+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
+
+SonarQube tOKEN
+sqa_f3feabf7ac922ad7cd4e91e9e5281d3202067177
+
+sonar.projectKey=AmmarWebsite
+
+
+
+docker run -it -e NGROK_AUTHTOKEN=2p34kMFPY0YhCkByKO0B9Qqfjfo_6t6NiAiMc2qJBxG9ANiRp ngrok/ngrok http 80
